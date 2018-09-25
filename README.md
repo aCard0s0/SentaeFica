@@ -12,7 +12,10 @@ Useful commands:
 ## Firebase
 
 This module was generate with help of this tutorials and videos 
-[AngularFirebase](https://angularfirebase.com/lessons/angular4-transactional-email-with-cloud-functions-and-sendgrid/) tutorial.
+[tutorial1 functions](https://angularfirebase.com/lessons/angular4-transactional-email-with-cloud-functions-and-sendgrid/)
+[tutorial2 functions](https://angularfirebase.com/lessons/sendgrid-v3-nodejs-transactional-email-cloud-function/)
+[tutorial3 functions](https://www.youtube.com/watch?v=vi_fuay06TI)
+[tutorial4 functions REST Endpoint](https://www.youtube.com/watch?v=qZ1EFnFOGvE)
 
 Useful commands:
 `firebase login | init | logout`

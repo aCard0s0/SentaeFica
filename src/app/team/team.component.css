@@ -1,0 +1,39 @@
+.no-top-padding {
+    padding-top:0px;
+}
+
+.img-team{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.text-head {
+    color: #2196F3 !important;
+}
+
+.text {
+    font-size: 16px;
+    text-align: justify;
+    color: black !important; 
+}
+
+.text-no-justify {
+    font-size: 16px;
+    color: black !important; 
+}
+
+.no-padding-bottom {
+    padding-bottom: 0px;
+}
+
+.no-bg {
+    background: #fff;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px;
+}
+
+.img-size {
+    width: 40%;
+}

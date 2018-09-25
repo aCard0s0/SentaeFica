@@ -1,0 +1,87 @@
+<!-- Top Menu -->
+<header>
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" >
+    <div class="navigation">
+      <div class="container">					
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" routerLink="/home"><img class="img-team" src="assets/images/logo.png" style="width: 120px;"/></a>
+        </div>
+        
+        <div class="navbar-collapse collapse">							
+          <div class="menu menu-size">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation"><a routerLink="/home" routerLinkActive="active">Início</a></li>
+              <li role="presentation"><a routerLink="/team" routerLinkActive="active">Equipa</a></li>
+              <li role="presentation"><a routerLink="/services" routerLinkActive="active">Serviços</a></li>
+              <li role="presentation"><a routerLink="/contacts" routerLinkActive="active">Contactos</a></li>						
+            </ul>
+          </div>
+        </div>						
+      </div>
+    </div>	
+  </nav>		
+</header>
+
+    <!-- <div style="text-align: right;">
+          <a href="https://www.facebook.com/sentaefica/" target="_blank" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-2x" style="color: #2e81ed;"></i></a>
+          <a href="https://www.instagram.com/senta.e.fica/" target="_blank" data-placement="top" title="Instagram"><i class="fa fa-instagram fa-2x" style="color: #2e81ed;"></i></a>
+    </div> -->
+
+<!-- Router -->
+<div class="main">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="sub-footer">
+
+    <div class="text-center wow fadeInUp" data-wow-offset="0" data-wow-delay="0.2s">
+        <ul class="social-network">
+          <li><a href="https://www.facebook.com/sentaefica/" target="_blank" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-2x"></i></a></li>
+          <li><a href="https://www.instagram.com/senta.e.fica/" target="_blank" data-placement="top" title="Instagram"><i class="fa fa-instagram fa-2x"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6">
+          &copy; 2015 <a target="_blank" href="http://bootstraptaste.com/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">bootstraptaste</a>. All Rights Reserved.
+          <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+        </div>
+                 <!--  
+                      All links in the footer should remain intact. 
+                      Licenseing information is available at: http://bootstraptaste.com/license/
+                      You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Multi
+                    -->
+        <div class="col-md-6">
+
+            <div>
+            <ul class="pull-right">
+              <li><a routerLink="/home">início</a></li>
+              <li><a routerLink="/team">Equipa</a></li>
+              <li><a routerLink="/services">Serviços</a></li>
+              <li><a routerLink="/contacts">Contactos</a></li>			
+            </ul>
+          </div>
+          <br />
+          <div class="pull-right" style="padding-right: 30px;">Created by <a href="#">André Cardoso</a></div>
+        </div>
+
+      </div>
+      
+      <div class="pull-right">
+        <a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+      </div>
+      
+    </div>
+  </div>		
+</footer>

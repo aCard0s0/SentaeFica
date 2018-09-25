@@ -1,0 +1,32 @@
+
+<div class="features">
+  <div class="container">
+    <div class="text-center">
+      <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.2s">
+        <h2 class="title">Serviços para animais de companhia</h2>
+      </div>
+      <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.2s">
+        <p class="sub-title">A missão do Senta & Fica é fazer a diferença. 
+          Queremos tornar os serviços a animais de estimação acessíveis a todos.
+          <br/>
+          Acreditamos no desenvolvimento de boas relações entre os animais e os seus humanos. <br></p>
+      </div>
+
+    </div>
+    <div class="home-button wow fadeInUp" data-wow-offset="0" data-wow-delay="1s">
+        <button type="button" class="btn btn-default info" routerLink="/team">Quem somos?</button>
+    </div>
+    
+    <slideshow
+            [minHeight]="'600px'"
+            [autoPlay]="true"
+            [showArrows]="true"
+            [imageUrls]="imageSources"
+            [lazyLoad]="imageSources?.length > 1"
+            [autoPlayWaitForLazyLoad]="true">
+    </slideshow>
+
+    <br />
+
+  </div>
+</div>

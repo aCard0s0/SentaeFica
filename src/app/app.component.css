@@ -1,0 +1,11 @@
+.menu-size {
+    font-size: 16px;
+}
+
+.main {
+    min-height: 500px;
+}
+
+.no-padding {
+    padding: 0px;
+}

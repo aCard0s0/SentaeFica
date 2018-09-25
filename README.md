@@ -3,19 +3,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 Useful commands:
-`ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-`ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-`ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-`ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-`ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+`ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.<br/>
+`ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.<br/>
+`ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.<br/>
+`ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).<br/>
+`ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).<br/>
 
 ## Firebase
 
 This module was generate with help of this tutorials and videos 
-[tutorial1 functions](https://angularfirebase.com/lessons/angular4-transactional-email-with-cloud-functions-and-sendgrid/)
-[tutorial2 functions](https://angularfirebase.com/lessons/sendgrid-v3-nodejs-transactional-email-cloud-function/)
-[tutorial3 functions](https://www.youtube.com/watch?v=vi_fuay06TI)
-[tutorial4 functions REST Endpoint](https://www.youtube.com/watch?v=qZ1EFnFOGvE)
+[tutorial1 functions](https://angularfirebase.com/lessons/angular4-transactional-email-with-cloud-functions-and-sendgrid/)<br/>
+[tutorial2 functions](https://angularfirebase.com/lessons/sendgrid-v3-nodejs-transactional-email-cloud-function/)<br/>
+[tutorial3 functions](https://www.youtube.com/watch?v=vi_fuay06TI)<br/>
+[tutorial4 functions REST Endpoint](https://www.youtube.com/watch?v=qZ1EFnFOGvE)<br/>
 
 Useful commands:
 `firebase login | init | logout`

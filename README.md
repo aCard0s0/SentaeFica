@@ -28,5 +28,4 @@ This [tutorial](https://sendgrid.com/docs/for-developers/sending-email/api-getti
 
 `npm install sendgrid`
 
-TODO:
-    Explore sendgrid API
+TODO: Explore sendgrid API

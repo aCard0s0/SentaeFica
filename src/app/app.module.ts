@@ -6,11 +6,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ServicesComponent } from './services/services.component';
 import { TeamComponent } from './team/team.component';
-import { BlogComponent } from './blog/blog.component';
-import { ProtfolioComponent } from './protfolio/protfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { AppRoutingModule } from './app-routing.module';
-/* import { CarouselModule } from 'angular4-carousel'; */
+
 import { NgwWowModule } from 'ngx-wow';
 import { NguCarouselModule } from '@ngu/carousel';
 import {SlideshowModule} from 'ng-simple-slideshow';
@@ -20,8 +18,6 @@ import {SlideshowModule} from 'ng-simple-slideshow';
     AppComponent,
     HomeComponent,
     ServicesComponent,
-    BlogComponent,
-    ProtfolioComponent,
     ContactComponent,
     TeamComponent
   ],
@@ -30,7 +26,6 @@ import {SlideshowModule} from 'ng-simple-slideshow';
     AppRoutingModule,
     NguCarouselModule,
     SlideshowModule,
-    /* CarouselModule, */
     NgwWowModule.forRoot()
   ],
   providers: [],

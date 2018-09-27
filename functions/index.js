@@ -1,10 +1,5 @@
 const functions = require('firebase-functions');
 
-// email d-2825e939a9e243f3a0e2ef38d4883c0b
-
-// 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
-
-
 const admin = require('firebase-admin');
 admin.initializeApp();
 const cors = require('cors')({ origin: true });

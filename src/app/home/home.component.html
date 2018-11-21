@@ -17,14 +17,23 @@
         <button type="button" class="btn btn-default info" routerLink="/team">Quem somos?</button>
     </div>
     
-    <slideshow
-            [minHeight]="'600px'"
-            [autoPlay]="true"
-            [showArrows]="true"
-            [imageUrls]="imageSources"
-            [lazyLoad]="imageSources?.length > 1"
-            [autoPlayWaitForLazyLoad]="true">
-    </slideshow>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-sm-12 col-md-10">
+
+          <slideshow
+                  [minHeight]="'600px'"
+                  [autoPlay]="true"
+                  [showArrows]="true"
+                  [imageUrls]="imageSources"
+                  [lazyLoad]="imageSources?.length > 1"
+                  [autoPlayWaitForLazyLoad]="true">
+          </slideshow>
+
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    
 
     <br />
 
